@@ -1,5 +1,7 @@
 # AMI Infrastructure Setup with Terraform
 
+This setup enables IAM role for the AMI CI/CD workflow.
+
 ### Configuration
 
 > Pre-requisites
