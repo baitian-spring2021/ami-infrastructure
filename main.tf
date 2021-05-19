@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
 }
 
-# iam policy to allow gh to upload artifact to S3
+# iam policy to allow EC2 to use AMI
 resource "aws_iam_policy" "GH_EC2_AMI" {
   name   = var.GH_EC2_AMI
   policy = <<EOF
